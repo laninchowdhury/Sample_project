@@ -5,8 +5,7 @@ import altair as alt
 import numpy as np
 
 # Read the dataset's csv file 
-df = pd.read_csv("C:\\Users\\nsuka\\Desktop\\sample_project\\vehicles_us.csv")
-
+df = pd.read_csv(r"c:\users\nsuka\desktop\sample_project\vehicles_us.csv")
 # Add a header
 st.header("Car Analysis Dashboard")
 
