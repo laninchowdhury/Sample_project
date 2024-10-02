@@ -23,6 +23,6 @@ fig_hist = px.scatter(df, x='odometer', y='price', color='condition', title='Pri
 st.write(fig_hist)
 
 if st.checkbox('Show Histogram'):
-    st.plotly_chart(fig_hist)
+    st.plotly_chart(fig)
 else:
     st.write("Histogram is hidden")
