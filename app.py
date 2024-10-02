@@ -19,9 +19,10 @@ st.plotly_chart(fig_hist)
 # Add a checkbox to filter data
 
 
-fig = px.scatter(df, x='odometer', y='price', color='condition', title='Price vs. Odometer by Condition')
-st.write(fig)
+fig_hist = px.scatter(df, x='odometer', y='price', color='condition', title='Price vs. Odometer by Condition')
+st.write(fig_hist)
+
 if st.checkbox('Show Histogram'):
-    st.plotly_chart(histogram)
+    st.plotly_chart(fig_hist)
 else:
     st.write("Histogram is hidden")
