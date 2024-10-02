@@ -16,8 +16,8 @@ This project is a tool designed to analyze car listings data. It provides variou
 # Create a virtual environment
 # Install the required libraries
 # Run the Streamlit app
-** Open project browser and go to Local URL: http://localhost:8501
-  Network URL: http://192.168.87.20:8501
+** Open project browser and go to Local URL
+  Network URL: 
 
 # Description
 
