@@ -18,7 +18,10 @@ This project is a tool designed to analyze car listings data. It provides variou
 # Install the required libraries
 # Run the Streamlit app
 ** Open project browser and go to Local URL
-  Network URL: 
+  Network URL: Local URL: http://localhost:8501
+  Network URL: http://10.223.219.99:8501
+  External URL: http://34.213.214.55:8501
+
 
 # Description
 
