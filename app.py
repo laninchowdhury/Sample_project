@@ -1,8 +1,17 @@
+
+
+
+
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import altair as alt
 import numpy as np
+import os
+
+print(os.getcwd())  # Prints the current working directory
+print(os.path.exists(r"c:\users\nsuka\desktop\sample_project\vehicles_us.csv"))
 
 # Read the dataset's csv file 
 df = pd.read_csv(r"c:\users\nsuka\desktop\sample_project\vehicles_us.csv")
