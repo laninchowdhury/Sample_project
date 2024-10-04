@@ -18,9 +18,7 @@ This project is a tool designed to analyze car listings data. It provides variou
 # Install the required libraries
 # Run the Streamlit app
 ** Open project browser and go to Local URL
-  Network URL: Local URL: http://localhost:8501
-  Network URL: http://10.223.219.99:8501
-  External URL: http://34.213.214.55:8501
+ 
 
 
 # Description
@@ -34,3 +32,6 @@ This tool simulates random events by analyzing car listings data. It provides in
 4. Run the Streamlit app and open it in my browser.
 https://sample-project-094k.onrender.com
 Merged updates from 'origin/main' into 'main' to incorporate the latest changes.
+ You can now view your Streamlit app in your browser.
+
+  URL: http://0.0.0.0:10000
