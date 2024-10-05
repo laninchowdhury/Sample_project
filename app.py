@@ -11,10 +11,11 @@ import numpy as np
 import os
 
 print(os.getcwd())  # Prints the current working directory
-print(os.path.exists(r"c:\users\nsuka\desktop\sample_project\vehicles_us.csv"))
+print(os.path.exists(r"c:\users\nsuka\Desktop\sample_project\vehicles_us.csv"))
 
 # Read the dataset's csv file 
-df = pd.read_csv(r"c:\users\nsuka\desktop\sample_project\vehicles_us.csv")
+df = pd.read_csv(r"c:\users\nsuka\Desktop\sample_project\vehicles_us.csv")
+df.head(10)
 # Add a header
 st.header("Car Analysis Dashboard")
 
@@ -30,3 +31,4 @@ st.plotly_chart(fig_hist)
 fig_hist = px.scatter(df, x='odometer', y='price', color='condition', title='Price vs. Odometer by Condition')
 st.write(fig_hist)
 
+df.head(5)
